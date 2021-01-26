@@ -108,7 +108,8 @@ li a:not(hover) {
 }
 
 .active {
-  background-color: #B04500;
+    background-color: #000000;
+	color: aliceblue;
 }
 
 .active:hover {
