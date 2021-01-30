@@ -13,7 +13,7 @@ function showRemaining() {
   if (distance < 0) {
 
     clearInterval(timer);
-    document.getElementById('countdown').innerHTML = '¡ES LA HORA!';
+    document.getElementById('countdown').innerHTML = '¡ÉS HORA!';
 
     return;
   }
@@ -23,24 +23,24 @@ function showRemaining() {
   var seconds = Math.floor((distance % _minute) / _second);
 
   if (days == 1) {
-    document.getElementById('countdown').innerHTML = days + ' día, ';
+    document.getElementById('countdown').innerHTML = days + ' dia, ';
   } else {
-    document.getElementById('countdown').innerHTML = days + ' días, ';
+    document.getElementById('countdown').innerHTML = days + ' dies, ';
   }
   if (hours == 1) {
     document.getElementById('countdown').innerHTML += hours + ' hora, ';
   } else {
-    document.getElementById('countdown').innerHTML += hours + ' horas, ';
+    document.getElementById('countdown').innerHTML += hours + ' hores, ';
   }
   if (minutes == 1) {
-    document.getElementById('countdown').innerHTML += minutes + ' minuto, ';
+    document.getElementById('countdown').innerHTML += minutes + ' minut, ';
   } else {
-    document.getElementById('countdown').innerHTML += minutes + ' minutos, ';
+    document.getElementById('countdown').innerHTML += minutes + ' minuts, ';
   }
   if (seconds == 1) {
-    document.getElementById('countdown').innerHTML += seconds + ' segundo';
+    document.getElementById('countdown').innerHTML += seconds + ' segon';
   } else {
-    document.getElementById('countdown').innerHTML += seconds + ' segundos';
+    document.getElementById('countdown').innerHTML += seconds + ' segons';
   }
 }
 
